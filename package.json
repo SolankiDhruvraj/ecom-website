@@ -1,0 +1,26 @@
+{
+  "name": "ecom-collab",
+  "version": "1.0.0",
+  "description": "E-commerce collaboration platform with Stripe payments",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "setup": "node setup-stripe.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "stripe",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
