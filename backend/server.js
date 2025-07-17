@@ -19,6 +19,7 @@ const allowedOrigins = [
     'http://localhost:5174',
     'http://127.0.0.1:5173',
     'http://127.0.0.1:5174',
+    'https://ecom-website-1-ctxv.onrender.com',
     process.env.CORS_ORIGIN
 ].filter(Boolean);
 
