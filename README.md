@@ -21,9 +21,4 @@ This is a modern, full-featured eCommerce website built using **Next.js**, follo
 - **Styling:** Tailwind CSS / CSS Modules (if applicable)
 - **Payments:** Stripe API (Checkout session)
 - **Deployment:** Vercel
----
-
-## 🧠 Project Structure
-
-The code follows a clean and maintainable structure:
 
